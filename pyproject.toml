@@ -1,0 +1,14 @@
+[project]
+name = "mcp-google"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "dateparser>=1.2.1",
+    "google-api-python-client>=2.173.0",
+    "google-auth>=2.40.3",
+    "google-auth-oauthlib>=1.2.2",
+    "mcp[cli]>=1.9.4",
+    "pydantic[email]>=2.11.7",
+]
